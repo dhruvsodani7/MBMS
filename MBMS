@@ -1,0 +1,10 @@
+mood = input("Enter mood (happy/sad/stressed): ")
+
+if mood == "happy":
+    print("Try upbeat pop or dance music.")
+elif mood == "sad":
+    print("Try soft acoustic songs.")
+elif mood == "stressed":
+    print("Try lo-fi or instrumental.")
+else:
+    print("Mood not recognized.")
